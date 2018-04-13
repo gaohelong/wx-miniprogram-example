@@ -1,19 +1,21 @@
 //index.js
 //获取应用实例
-const app = getApp()
+const app = getApp();
+// console.log(app);
 
 Page({
     data: {
-        motto: 'Hello Wit Hire!',
+        motto: 'Click Into Wit Hire!',
         userInfo: {},
         hasUserInfo: false,
         canIUse: wx.canIUse('button.open-type.getUserInfo')
     },
     //事件处理函数
     bindViewTap: function () {
-        wx.navigateTo({
+        // wx.navigateTo({
+        wx.switchTab({
             url: '../logs/logs'
-        })
+        });
     },
     onLoad: function () {
         if (app.globalData.userInfo) {
@@ -50,5 +52,12 @@ Page({
             userInfo: e.detail.userInfo,
             hasUserInfo: true
         })
+    },
+    // 分享.
+    onShareAppMessage: function () {
+        return {
+            title: 'Welcome Wit Hire!',
+            path: '/logs/logs?id=123'
+        }
     }
 })

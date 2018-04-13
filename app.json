@@ -1,13 +1,32 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs",
-    "pages/blogs/blogs"
-  ],
-  "window":{
-    "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Wit Hire",
-    "navigationBarTextStyle":"black"
-  }
+    "pages": [
+        "pages/index/index",
+        "pages/search/search",
+        "pages/logs/logs"
+    ],
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTitleText": "Wit Hire",
+        "navigationBarTextStyle": "black"
+    },
+    "tabBar": {
+        "color": "#909195",
+        "selectedColor": "#07bb0b",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/search/search",
+                "text": "搜索"
+            },
+            {
+                "pagePath": "pages/logs/logs",
+                "text": "访问日志"
+            }
+        ]
+    },
+    "debug": true
 }
