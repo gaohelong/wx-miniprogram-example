@@ -1,4 +1,4 @@
-// pages/search/search.js
+// pages/examples/views/view.js
 Page({
 
   /**

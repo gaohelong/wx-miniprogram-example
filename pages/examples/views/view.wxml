@@ -1,0 +1,4 @@
+<!--pages/examples/views/view.wxml-->
+<view class="content">
+    <view>view</view>
+</view>

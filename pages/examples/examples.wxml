@@ -1,0 +1,9 @@
+<!--pages/examples/examples.wxml-->
+<view class="content">
+    <view class="row">
+        <navigator url="/pages/examples/views/view">view</navigator>
+    </view>
+    <view class="row">
+        <navigator url="/pages/examples/views/scroll-view">scroll-view</navigator>
+    </view>
+</view>

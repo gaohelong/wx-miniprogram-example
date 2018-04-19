@@ -1,7 +1,8 @@
 {
     "pages": [
         "pages/index/index",
-        "pages/search/search",
+        "pages/examples/examples",
+        "pages/examples/views/view",
         "pages/logs/logs"
     ],
     "window": {
@@ -19,8 +20,8 @@
                 "text": "首页"
             },
             {
-                "pagePath": "pages/search/search",
-                "text": "搜索"
+                "pagePath": "pages/examples/examples",
+                "text": "实例"
             },
             {
                 "pagePath": "pages/logs/logs",
